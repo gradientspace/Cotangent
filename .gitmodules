@@ -1,0 +1,27 @@
+[submodule "Assets/geometry3Sharp"]
+	path = Assets/geometry3Sharp
+	url = https://github.com/gradientspace/geometry3Sharp
+[submodule "Assets/gsGCode"]
+	path = Assets/gsGCode
+	url = https://github.com/gradientspace/gsGCode
+[submodule "Assets/gsSlicer"]
+	path = Assets/gsSlicer
+	url = https://github.com/gradientspace/gsSlicer
+[submodule "Assets/gsGeometry"]
+	path = Assets/gsGeometry
+	url = https://github.com/gradientspace/gsGeometry
+[submodule "Assets/gsShapeModels"]
+	path = Assets/gsShapeModels
+	url = https://github.com/gradientspace/gsShapeModels
+[submodule "Assets/gsTools"]
+	path = Assets/gsTools
+	url = https://github.com/gradientspace/gsTools
+[submodule "Assets/gsSlicerPro"]
+	path = Assets/gsSlicerPro
+	url = https://github.com/gradientspace/gsSlicerPro
+[submodule "Assets/frame3Sharp"]
+	path = Assets/frame3Sharp
+	url = https://github.com/gradientspace/frame3Sharp
+[submodule "Assets/gsCore"]
+	path = Assets/gsCore
+	url = https://github.com/gradientspace/gsCore

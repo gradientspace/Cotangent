@@ -1,0 +1,20 @@
+1) update CotangentVersion.cs
+2) update version in player settings
+
+3) build installer
+4) upload installer to aws
+5) make installer public
+6) update download button link on Squarespace
+7) check that links work
+
+10) update auto_update.txt
+11) upload auto_update.txt to aws
+12) make auto_update.txt public
+13) check that link works
+
+
+20) update version numbers for next build
+    and to make it clear that unity exceptions are from me
+19) add tag to version commit
+
+	

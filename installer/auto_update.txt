@@ -1,0 +1,2 @@
+win 1.0.5 noforce https://s3.us-east-2.amazonaws.com/cotangent-installers/Cotangent_installer_win64_1_0_5.exe
+osx 1.0.0 noforce https://does_not_exist.com

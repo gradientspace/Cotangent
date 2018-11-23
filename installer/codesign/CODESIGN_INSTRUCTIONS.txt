@@ -1,0 +1,21 @@
+
+
+1) If on same machine as certificate was requested on, certificate is in store.
+   Go into Internet Options and export pvk file.
+   
+2) If you have new .SPC file (eg from renewal) and existing PFX file, and
+   are possibly on a different machine, then follow instructions here:
+      https://stackoverflow.com/questions/4682642/joining-godaddy-issued-spc-and-key-files-into-a-complete-pfx-cer-certifica
+   to export private key from existing PFX, convert to PVK, and then
+   combine with SPC into new PFX. *Except* first command to export private
+   key may not work? Similar command here worked:
+      https://ca.godaddy.com/help/converting-an-exported-pfx-code-signing-file-to-pvk-and-spc-files-using-windows-6034
+   So commands were:
+       openssl pkcs12 -in inf.pfx -nocerts -nodes -out outf.pem
+       pvk.exe -in CodeSign.pem -topvk -strong -out CodeSign.pvk
+	   pvk2pfx.exe -pvk CodeSign.pvk -pi <passphrase> -spc CodeSign.spc -pfx CodeSign.pfx -po <passphrase> -f
+   
+   ** Find pvk2pfx.exe by searching in C:\Program Files (x86)\Windows Kits\10\bin\
+   ** get openssl.exe here: https://mirror.firedaemon.com/index.php?dir=OpenSSL%2F
+   
+   
